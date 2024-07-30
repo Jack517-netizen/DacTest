@@ -1,88 +1,95 @@
 # dactest
 
-Projet Test de la technologie FLUTTER
+FLUTTER Technology Test Project
 
-## Commencer
+## Getting Started
 
-Ce projet est un point de départ d'une application flutter.
+This project is a starting point for a Flutter application.
 
-Quelques ressources pour commencer si vous débutez en Flutter :
+Here are some resources to help you start if you are new to Flutter:
 
-- [Lab: Ecrivez votre première application Flutter](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Exemples d'applications Flutter utiles](https://docs.flutter.dev/cookbook)
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter application examples](https://docs.flutter.dev/cookbook)
 
-Pour avoir de l'aide au début du développement Flutter, veuillez consulter la 
-[documentation en ligne](https://docs.flutter.dev/), qui offre des tutoriels,
-examples, guides de développement mobile, et une réference API complète.
+For help starting with Flutter development, please refer to the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+examples, mobile development guides, and a complete API reference.
 
-## Guide de démarrage rapide
+## Quick Start Guide
 
-Pour lancer le projet, veuillez suivre les étapes suivantes.
+To launch the project, please follow the steps below.
 
-Pré-requis: À noter que vous devez avoir Flutter et les modules d'Android SDK installés sur votre machine.
+Prerequisites: Note that you must have Flutter and the Android SDK modules installed on your machine.
 
-_Avant de continuer, pourquoi pas faire un petit tour de la structure du projet_
-* Technologies:
-  * BLoC (Business Logic Components)
-  * SQFlite (Bases de données SQLite pour les applications Flutter sauf Windows)
-  * GoogleFonts (Pour configurer la police globale de l'application en système One-Time)
-  * etc. (Je vous laisse découvrir lors du clonage du repository)
+_Before continuing, why not take a quick tour of the project structure_
 
-Voici les étapes à suivre pour lancer le projet
+- Technologies:
+  - BLoC (Business Logic Components)
+  - SQFlite (SQLite databases for Flutter applications except Windows)
+  - GoogleFonts (To configure the global font of the application in a One-Time system)
+  - etc. (I'll let you discover more when cloning the repository)
 
-1. **Cloner le repository en local**
-Pour cloner le repository en local, lancer la commande suivante après avoir récupéré l'URL du dépôt :
+Here are the steps to follow to launch the project
+
+1. **Clone the repository locally**
+   To clone the repository locally, run the following command after retrieving the repository URL:
+
 ```git
-git clone  https://github.com/JackJosue517/DacTest.git
+git clone https://github.com/JackJosue517/DacTest.git
 ```
 
-2. **Télécharger les dépendances du projet**
-Lancer la commande Dart en étant connecté à une source de connexion internet.
-`dart pub get`
+2. **Download the project dependencies**
+   Run the Dart command while connected to the internet.
 
-3.  **Exécuter l'application**
-Voilà, vous y êtes presque. Il ne vous reste qu'à saisir une commande pour avoir le rendu du test
+```dart
+dart pub get
+```
+
+3.  **Run the application**
+    There you go, you are almost there. You just need to enter a command to get the test result:
+
 ```flutter
 flutter run
 ```
 
-## Avis personnels
+## Personal Thoughts
 
-### Etat de pensée
+### State of Mind
 
-Après avoir fini ou écoulé le temps que je me suis imparti, je suis **resté bouche bée** face  à l'immensité 
-du travail qu'il restait encore à accomplir.
+After finishing or running out of the time I set for myself, I was **speechless** at the enormity
+of the work that still remained to be done.
 
-### Ressenti
+### Feelings
 
-Je suis épuisée, démembrée et j'ai le vertige. Des tâches domestiques m'attendent 
-car je les ai mise en pause, pour finir ce petit test dans un délai imparti
-en comptabilisant le fait que je ne travaille pas le samedi (Religion: Judéo-Chrétien)
+I am exhausted, disjointed, and dizzy. Domestic chores await me
+because I paused them to finish this small test within a set deadline
+considering that I do not work on Saturdays (Religion: Judeo-Christian)
 
-Je reçois aussi une petite auto-gratification de ma propre part,
-car même si je ne réponds pas aux critères, j'ai fait de mon mieux.
+I also give myself a small self-gratification,
+because even if I do not meet the criteria, I did my best.
 
-### Qu'as-je fait au juste ?
+### What exactly did I do?
 
-1. _Créer une application from Scratch qui exploire les données de l'API (RANDOM USER API)[https://randomuser.me/documentation#howto]_
-2. _Mettre en place un mini-système CRUD solide et robuste sur les données tout en me conformant aux spécificités et design patterns des technologies utilisées._
-3. _Créer une page d'accueil minimaliste qui suit la tendance moderne avec ajout d'une petite touche personnelle: Des cards personnalisés._
-4. _Une mini-barre de recherche qui récupère la première entrée conforme à la demande de l'utilisateur._
-5. _Sans oublier, la partie essentielle d'une application quelque soit sa taille: Un système de paramètres. J'y ai ajouté des fonctionnalités en cours de développement et une action pour afficher les licenses sur l'application._
+1. _Create an application from scratch that explores the data of the API (RANDOM USER API)[https://randomuser.me/documentation#howto]_
+2. _Set up a solid and robust mini CRUD system on the data while conforming to the specifications and design patterns of the technologies used._
+3. _Create a minimalist homepage that follows the modern trend with a small personal touch: Custom cards._
+4. _A mini-search bar that retrieves the first entry that meets the user's request._
+5. _Not to forget, the essential part of an application, no matter its size: A settings system. I added developing features and an action to display the licenses on the application._
 
-### Qu'aurai-je pu fait si le deadline était repousée ?
-1. _La première fonctionnalité sur laquelle je sauterai serait la BARRE DE RECHERCHE. C'est un peu comme le deuxième coeur de l'application après la page d'accueil._
-2. _Développer le système de paramètres et ajouter plus de fonctionnalités pour avoir un modèle standard des systèmes de paramètres qui pourraient comprendre entre autres:_
-    * La déconnexion d'un utilisateur déconnecté
-    * Les fonctions d'aide et de contact et la possibilité de proposer des fonctionnalités
-    * Personnalisation des cards (forme carrée sur un Grid et autres au lieu d'une vue unique)
-    * Activer ou Désactiver la synchronisation automatique avec l'API RANDOMUSER API.
-    * etc(Laissons cours au cahier de charges)
-3. _Ajouter des petits utilitaires (logo de l'entreprise, image de l'application, des splashscreens, etc...)
+### What could I have done if the deadline was extended?
+
+1. _The first feature I would jump on would be the SEARCH BAR. It's kind of like the second heart of the application after the homepage._
+2. _Develop the settings system and add more features to have a standard model of settings systems that could include among others:_
+   - User logout functionality
+   - Help and contact functions and the possibility to suggest features
+   - Customization of cards (square shape on a Grid and others instead of a unique view)
+   - Enable or disable automatic synchronization with the RANDOMUSER API.
+   - etc. (Let's follow the specifications)
+3. _Add small utilities (company logo, application image, splash screens, etc.)_
 4. etc.
 
-### Mot de fin ?
+### Final Word?
 
-# Merci pour ce test !!! J'EN AI TIRE BEAUCOUP POUR MES PROCHAINES ETAPES.
+# Thank you for this test!!! I HAVE LEARNED A LOT FOR MY NEXT STEPS.
 
-Vous aimerez me contacter : (JackJosue517)[jackjosue517@gmail.com]
+You would like to contact me: (JackJosue517)[jackjosue517@gmail.com]
